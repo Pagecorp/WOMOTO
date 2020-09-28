@@ -8865,3 +8865,19 @@ h6 {
   width: 80px;
   margin: 10px 0px 10px 0px;
 }
+
+/*Small Order Page*/
+.sm-map-logo{
+  width: 50%;
+} 
+.sm-bar{
+  font-size: 30px;
+}
+#sticky-header{
+    border-bottom: 1px solid #EAEAEA;
+    padding:20px;
+  }
+
+
+
+
