@@ -2125,7 +2125,7 @@ h3 {
 
 /* line 2, ../../Arafath/CL/Cl November/223. Transportation/HTML/scss/_testmonial.scss */
 .testimonial_area {
-  background-image: url(../img/banner/man3.jpg);
+  background-image: url(../img/banner/man4.jpg);
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -2319,7 +2319,8 @@ h3 {
   border: none;
   font-size: 14px;
   color: #fff;
-  background: #A70000;
+  background: #3198E2;
+  border-radius: 50%;
   padding: 10px;
   padding: 0 22px;
   cursor: pointer;
@@ -8865,4 +8866,10 @@ h6 {
 .sm-logo{
   width: 80px;
   margin: 10px 0px 10px 0px;
+}
+
+
+
+.bottom-link{
+  color: white;
 }
