@@ -68,7 +68,7 @@
                                     </a>
                                 </div>
                             </div>
-                            <div class="col-md-3 col-sm-6 col-sm-6 d-lg-none sm-map-logo">                      <<div class="book_btn  d-lg-block" id="js-navbar-toggle" style="float:right;">
+                            <div class="col-md-3 col-sm-6 col-sm-6 d-lg-none sm-map-logo">                      <div class="book_btn  d-lg-block" id="js-navbar-toggle" style="float:right;">
                                     <a class="sm-bar" href="#"><i class="fa fa-bars"></i></a> 
 
 
@@ -82,7 +82,7 @@
                               
 
                                 
-                      <ul class="list" id="js-menu">
+                      <ul class="lists" id="js-menu">
                         <div class="image-flex">
                         <div>
                                  <img class="kenny" src="../logistico/img/kenny.jpg">
@@ -169,11 +169,11 @@
 
     <script src="js/main.js"></script>
 
-   <script> let mainNav = document.getElementById("js-menu");
+   <script> var mainNav = document.getElementById("js-menu");
 let navBarToggle = document.getElementById("js-navbar-toggle");
 
 navBarToggle.addEventListener("click", function() {
- mainNav.style('display', 'none');
+  mainNav.classList.toggle("active");
 });
 </script>
 
