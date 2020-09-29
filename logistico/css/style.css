@@ -2125,7 +2125,7 @@ h3 {
 
 /* line 2, ../../Arafath/CL/Cl November/223. Transportation/HTML/scss/_testmonial.scss */
 .testimonial_area {
-  background-image: url(../img/banner/man3.jpg);
+  background-image: url(../img/banner/man4.jpg);
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -2319,7 +2319,8 @@ h3 {
   border: none;
   font-size: 14px;
   color: #fff;
-  background: #A70000;
+  background: #3198E2;
+  border-radius: 50%;
   padding: 10px;
   padding: 0 22px;
   cursor: pointer;
@@ -2830,7 +2831,7 @@ h3 {
 
 /* line 239, ../../Arafath/CL/Cl November/223. Transportation/HTML/scss/_contact_action.scss */
 .contact_location {
-  background: #F5FBFF;
+  background: black;
   padding: 100px 0;
 }
 
@@ -2876,7 +2877,7 @@ h3 {
 
 /* line 270, ../../Arafath/CL/Cl November/223. Transportation/HTML/scss/_contact_action.scss */
 .contact_location .location_left ul li:nth-child(2) a {
-  background: #DB4337;
+  background: #3198E2;
 }
 
 /* line 273, ../../Arafath/CL/Cl November/223. Transportation/HTML/scss/_contact_action.scss */
@@ -2886,7 +2887,7 @@ h3 {
 
 /* line 276, ../../Arafath/CL/Cl November/223. Transportation/HTML/scss/_contact_action.scss */
 .contact_location .location_left ul li:nth-child(4) a {
-  background: #BB0000;
+  background: #3198E2;
 }
 
 /* line 283, ../../Arafath/CL/Cl November/223. Transportation/HTML/scss/_contact_action.scss */
@@ -2899,7 +2900,7 @@ h3 {
 
 /* line 289, ../../Arafath/CL/Cl November/223. Transportation/HTML/scss/_contact_action.scss */
 .contact_location .single_location p {
-  color: #596672;
+  color: white ;
   font-size: 14px;
   line-height: 28px;
 }
@@ -4979,7 +4980,8 @@ span.ui-slider-handle.ui-corner-all.ui-state-default:focus {
 }
 
 /* line 175, ../../Arafath/CL/Cl November/223. Transportation/HTML/scss/_footer.scss */
-.footer .socail_links ul li a {
+.footer .socail_
+links ul li a {
   font-size: 15px;
   color: #C3B2F0;
   width: 40px;
@@ -8865,3 +8867,19 @@ h6 {
   width: 80px;
   margin: 10px 0px 10px 0px;
 }
+
+.bottom-link{
+  color: white;
+}
+
+/*Small Order Page*/
+.sm-map-logo{
+  width: 50%;
+} 
+.sm-bar{
+  font-size: 30px;
+}
+#sticky-header{
+    border-bottom: 1px solid #EAEAEA;
+    padding:20px;
+  }
