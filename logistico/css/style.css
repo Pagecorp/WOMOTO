@@ -8872,6 +8872,7 @@ h6 {
   width: 50%;
 } 
 .sm-bar{
+  color: 30px !important;
   font-size: 30px;
 }
 #sticky-header{
