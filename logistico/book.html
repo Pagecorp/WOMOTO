@@ -42,7 +42,7 @@
                 <div class="container">
                     <div class="row align-items-center">
                         <div class="col-xl-9 col-lg-9">
-                            <div class="logo">
+                            <div class="logo">''
                                 <a href="index.html">
                                     <img src="img/WOMOTO.png" alt="">
                                 </a>
@@ -69,7 +69,7 @@
                                 </div>
                             </div>
                             <div class="col-md-3 col-sm-6 col-sm-6 d-lg-none sm-map-logo">                      
-                                <div class="book_btn  d-lg-block" id="js-navbar-toggle" style="float:right;">
+                                <div class="book_btn  d-lg-block" id="js-navbar-toggle-sm" style="float:right;">
                                     <a class="sm-bar" href="#"><i class="fa fa-bars"></i></a> 
                                 </div>
                             </div>
@@ -81,32 +81,32 @@
                               
 
                                 
-                      <ul class="lists" id="js-menu">
-                        <div class="image-flex">
-                        <div>
-                                 <img class="kenny" src="../logistico/img/kenny.jpg">
-                                </div>
-                                <div class="image-text">
-                                    <h6>karimah shittu</h6>
-                                    <p>customer</p>
-                                    <hr>
+            <ul class="lists" id="js-menu">
+            <div class="image-flex">
+            <div>
+                        <img class="kenny" src="../logistico/img/kenny.jpg">
+                    </div>
+                    <div class="image-text">
+                        <h6>karimah shittu</h6>
+                        <p>customer</p>
+                        <hr>
 
-                                </div>
-                                </div>
-                            
-                                <li class="bar"><a href="#">View Profile<a></li>
-                                <li class="bar"><a href="#">Trip History<a></li>
-                                <li class="bar"><a href="#">Discount Offers<a></li>
-                                <li class="bar"><a href="#">Payments<a></li>
-                                <li class="bar"><a href="#">Settings<a></li>
-                                <li class="bar"><a href="#">Support<a></li>
-                                <li class="bar"><a href="index.html">Log Out<a></li>
-                               
-
-
+                    </div>
+                    </div>
+                
+                    <li class="bar"><a href="#">View Profile<a></li>
+                    <li class="bar"><a href="#">Trip History<a></li>
+                    <li class="bar"><a href="#">Discount Offers<a></li>
+                    <li class="bar"><a href="#">Payments<a></li>
+                    <li class="bar"><a href="#">Settings<a></li>
+                    <li class="bar"><a href="#">Support<a></li>
+                    <li class="bar"><a href="index.html">Log Out<a></li>
+                    
 
 
-                              </ul>
+
+
+                    </ul>
 
                                 
     </header>
@@ -167,12 +167,21 @@
 
     <script src="js/main.js"></script>
 
-   <script> var mainNav = document.getElementById("js-menu");
-let navBarToggle = document.getElementById("js-navbar-toggle");
+   <script> 
+        var mainNav = document.getElementById("js-menu");
+        let navBarToggle = document.getElementById("js-navbar-toggle");
+        let navBarToggleSm = document.getElementById("js-navbar-toggle-sm");
 
-navBarToggle.addEventListener("click", function() {
-  mainNav.classList.toggle("active");
-});
+        navBarToggle.addEventListener("click", function() {
+        mainNav.classList.toggle("active");
+        });
+
+       
+
+        navBarToggleSm.addEventListener("click", function() {
+        mainNav.classList.toggle("active");
+        });
+
 </script>
 
 

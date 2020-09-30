@@ -2125,7 +2125,7 @@ h3 {
 
 /* line 2, ../../Arafath/CL/Cl November/223. Transportation/HTML/scss/_testmonial.scss */
 .testimonial_area {
-  background-image: url(../img/banner/man3.jpg);
+  background-image: url(../img/banner/woman4.jpg);
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -2225,6 +2225,7 @@ h3 {
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
+  display: none;
 }
 
 /* line 73, ../../Arafath/CL/Cl November/223. Transportation/HTML/scss/_testmonial.scss */
@@ -2302,6 +2303,10 @@ h3 {
   font-size: 16px;
   color: #000;
   border: none;
+}
+
+.bottom-link{
+  color: white;
 }
 
 /* line 133, ../../Arafath/CL/Cl November/223. Transportation/HTML/scss/_testmonial.scss */
