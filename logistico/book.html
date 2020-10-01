@@ -31,6 +31,8 @@
 </head>
 
 <body>
+
+    <div class="overlay_test"></div>
     <!--[if lte IE 9]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
         <![endif]-->
@@ -64,7 +66,7 @@
                             <div class="col-md-9 col-sm-6 col-xs-6 d-block sm-map-logo d-lg-none">
                                 <div class="logo">
                                     <a href="index.html">
-                                        <img style="width:120px;" src="img/WOMOTO.png" alt="">
+                                        <img class="logo_smaller" src="img/WOMOTO.png" alt="">
                                     </a>
                                 </div>
                             </div>
@@ -80,33 +82,42 @@
 <!-- sidebar div -->
                               
 
-                                
-            <ul class="lists" id="js-menu">
-            <div class="image-flex">
-            <div>
-                        <img class="kenny" src="../logistico/img/kenny.jpg">
-                    </div>
-                    <div class="image-text">
-                        <h6>karimah shittu</h6>
-                        <p>customer</p>
-                        <hr>
+                         <div class="wrapper_forced">
+                           
 
-                    </div>
-                    </div>
-                
-                    <li class="bar"><a href="#">View Profile<a></li>
-                    <li class="bar"><a href="#">Trip History<a></li>
-                    <li class="bar"><a href="#">Discount Offers<a></li>
-                    <li class="bar"><a href="#">Payments<a></li>
-                    <li class="bar"><a href="#">Settings<a></li>
-                    <li class="bar"><a href="#">Support<a></li>
-                    <li class="bar"><a href="index.html">Log Out<a></li>
+                            <ul class="lists" id="js-menu">
+                              
+                                <div class="image-flex">
+                                <div>
+                                            <img class="kenny" src="../logistico/img/girl 2.jpg">
+                                        </div>
+                                        <div class="image-text">
+                                            <h6>karimah shittu</h6>
+                                            <p>customer</p>
+                                            <hr>
                     
+                                            <div class="line"></div>
+                    
+                                        </div>
+                                        </div>
+                    
+                                        <div class="list_items">
+                    
+                    
+                                            <li class="bar"><a href="#">View Profile<a></li>
+                                                <li class="bar"><a href="#">Trip History<a></li>
+                                                <li class="bar"><a href="#">Discount Offers<a></li>
+                                                <li class="bar"><a href="#">Payments<a></li>
+                                                <li class="bar"><a href="#">Settings<a></li>
+                                                <li class="bar"><a href="#">Support<a></li>
+                                                <li class="bar"><a href="index.html">Log Out<a></li>
+                    
+                                        </div>
 
-
-
-
-                    </ul>
+                                        
+                    
+                                        </ul>
+             </div>                
 
                                 
     </header>
@@ -124,6 +135,56 @@
     <!-- Map end -->
 
     <!-- Pick up form begin -->
+
+    <div class="col-xl-12 col-md-12 driver_form">
+       
+
+                    <form class="form_mer" action="#">
+                        <div class="form-group">
+                            <div class="field_name">Current location</div>
+                            <input type="email" class="form-control_2"
+                                disabled placeholder='Your current location'>
+                        </div>
+
+                        <div class="form-group">
+                            <div class="field_name">Destination</div>
+                            <input type="email" class="form-control_2"
+                                placeholder='55,Ramat Crescent, Ogudu GRA, Lagos'>
+                        </div>
+                        <button data-toggle="modal" data-target="#exampleModalCenter" class="boxed-btn_2"
+                            type="submit">Continue</button>
+                    </form>
+               
+    </div>
+
+
+    <div class="modal fade custom_search_pop" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+          <div class="modal-content">
+            <div class="serch_form">
+                <!-- <input type="text" placeholder="search" >
+                <button type="submit">search</button> -->
+                <div class="modal_bg">
+
+                        <div class="modal_text">
+                           <h4> You are About to select</h4>
+
+                            <h6>Loki Sulaimon</h6>
+                        </div>
+                        <div class="driver_img"></div>
+
+                        <div class="final_btns">
+                            <a class="boxed-btn3 mr-3" href="#">Accept</a>
+                            <a class="boxed-btn3-line danger" href="book.html">Reject</a>
+
+                        </div>
+                </div>
+
+
+            </div>
+          </div>
+        </div>
+      </div>
 
     <!-- Pick up form end -->
 
