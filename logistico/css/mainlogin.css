@@ -58,7 +58,13 @@ a:focus {
 
 a:hover {
   text-decoration: none;
-  color: #a64bf4;
+  color: #164e76;
+}
+
+.testing:hover{
+  background : transparent !important;
+  color: #164e76 !important;
+
 }
 
 /*---------------------------------------------*/
